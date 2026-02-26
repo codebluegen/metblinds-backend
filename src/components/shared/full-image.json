@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_full_image_s",
+  "info": {
+    "displayName": "full image "
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

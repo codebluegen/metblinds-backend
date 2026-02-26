@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "offer_headline": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "subtitle": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "offer_description": {
+      "type": "text",
+      "maxLength": 200
+    },
+    "discount_percentage": {
+      "type": "string",
+      "required": false
+    },
+    "offer_end": {
+      "type": "datetime"
+    },
+    "button_text": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "button_url": {
+      "type": "string",
+      "required": true
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

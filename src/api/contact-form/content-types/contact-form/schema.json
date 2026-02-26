@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_forms",
+  "info": {
+    "singularName": "contact-form",
+    "pluralName": "contact-forms",
+    "displayName": "ContactForm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email",
+      "unique": false
+    },
+    "Location": {
+      "type": "text"
+    },
+    "Product": {
+      "type": "string"
+    },
+    "InquiryType": {
+      "type": "string"
+    },
+    "HeardAbout": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    },
+    "Phone": {
+      "type": "string"
+    }
+  }
+}

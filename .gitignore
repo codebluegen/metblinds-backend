@@ -1,0 +1,119 @@
+###############################################################################
+# Metblinds / Strapi – .gitignore
+###############################################################################
+
+
+###############################################################################
+# 1. Operating-system junk
+###############################################################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+._*
+
+
+# Strapi runtime / builds
+
+.strapi/
+dist/
+build/
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux editor swap files
+*~
+.tmp/
+###############################################################################
+# 2. Dependency directories & package managers
+###############################################################################
+node_modules/
+.pnp.*            # Yarn PnP
+.yarn/*
+!.yarn/cache/
+!.yarn/releases/
+!.yarn/plugins/
+!.yarn/sdks/
+!.yarn/versions/
+yarn-error.log
+package-lock.json # ignore if you commit yarn.lock only (keep/remove as you like)
+
+###############################################################################
+# 3. Build / runtime output
+###############################################################################
+dist/
+build/
+.tmp/             # Strapi temp dir
+.strapi/          # Local Strapi data
+exports/
+coverage/
+results/
+pids/
+logs/
+
+###############################################################################
+# 4. Strapi-specific metadata
+###############################################################################
+.strapi-updater.json
+.strapi-cloud.json
+
+###############################################################################
+# 5. Environment & config secrets
+###############################################################################
+.env
+.env.*            # .env.local, .env.production, etc.
+
+###############################################################################
+# 6. Uploads (keep placeholder)
+###############################################################################
+public/uploads/*
+!public/uploads/.gitkeep
+
+###############################################################################
+# 7. IDE / tooling
+###############################################################################
+.idea/
+nbproject/
+.vscode/
+.tsbuildinfo
+.eslintcache
+
+###############################################################################
+# 8. Misc binary / archive files
+###############################################################################
+*.cab
+*.msi
+*.msm
+*.msp
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.seed
+*.pid
+*.out
+
+.tmp/
+
+
+
+
+.tmp/
+.tmp/
+\.tmp/

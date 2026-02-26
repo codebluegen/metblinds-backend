@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_paragraph_with_image_s",
+  "info": {
+    "displayName": "Paragraph with Image ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "isImageReversed": {
+      "type": "boolean",
+      "default": false
+    },
+    "imageLandscape": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
