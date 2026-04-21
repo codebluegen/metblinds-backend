@@ -109,6 +109,9 @@ Message        : ${entry.Message}
             'support@bluegenstudios.com',
             'info@metblinds.com',
             'hammad@metblinds.com',
+            'sonakshi@metblinds.com',                                                   
+            'karan@metblinds.com',                                                      
+            'Bk@metblinds.com'
           ],
           from: 'developersbluegen@gmail.com',
           subject: `Metblinds – New Contact Form Submission from ${entry.Name}`,
